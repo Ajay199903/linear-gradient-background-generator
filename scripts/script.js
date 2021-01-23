@@ -6,8 +6,8 @@ var slider = document.querySelector(".direction");
 
 function changeGradient() 
 {
-	body.style.background = "linear-gradient(" + slider.value + "deg, " + color1.value + "," + color2.value + ")";
-	h3.textContent = body.style.background + ";";
+	body.style.backgroundImage = "linear-gradient(" + slider.value + "deg, " + color1.value + "," + color2.value + ")";
+	h3.textContent = body.style.backgroundImage + ";";
 }
 
 changeGradient();
