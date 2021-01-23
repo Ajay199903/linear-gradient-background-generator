@@ -9,7 +9,7 @@ body {
 	text-transform: uppercase;
 	letter-spacing: .5em;
 	background-size: cover;
-	background: linear-gradient(to right,red,yellow);
+	background-image: linear-gradient(to right,red,yellow);
 }
 
 .container {
